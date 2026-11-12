@@ -1,0 +1,806 @@
+{
+  "type": "FeatureCollection",
+  "name": "FloodShield_AI_Risk_Zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-101",
+        "zone_name": "Karur Riverbank Core Floodplain (Zone A)",
+        "risk_category": "CRITICAL",
+        "risk_score": 91.5,
+        "flood_probability": 0.915,
+        "inundation_depth_m": 2.4,
+        "affected_area_sq_km": 20.25,
+        "population_at_risk": 39200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0486,
+              10.9701
+            ],
+            [
+              78.1016,
+              10.9741
+            ],
+            [
+              78.1056,
+              10.9551
+            ],
+            [
+              78.0546,
+              10.9511
+            ],
+            [
+              78.0486,
+              10.9701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-102",
+        "zone_name": "Karur Northern Canal Lowlands (Zone B)",
+        "risk_category": "SEVERE",
+        "risk_score": 78.2,
+        "flood_probability": 0.782,
+        "inundation_depth_m": 1.5,
+        "affected_area_sq_km": 15.75,
+        "population_at_risk": 29400
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0546,
+              10.9881
+            ],
+            [
+              78.0976,
+              10.9911
+            ],
+            [
+              78.1016,
+              10.9741
+            ],
+            [
+              78.0486,
+              10.9701
+            ],
+            [
+              78.0546,
+              10.9881
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-103",
+        "zone_name": "Karur Southern Drainage Basin (Zone C)",
+        "risk_category": "HIGH",
+        "risk_score": 64.0,
+        "flood_probability": 0.64,
+        "inundation_depth_m": 0.9,
+        "affected_area_sq_km": 12.38,
+        "population_at_risk": 22050
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0546,
+              10.9511
+            ],
+            [
+              78.1056,
+              10.9551
+            ],
+            [
+              78.1006,
+              10.9361
+            ],
+            [
+              78.0586,
+              10.9351
+            ],
+            [
+              78.0546,
+              10.9511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-104",
+        "zone_name": "Karur Western Elevated Terrace (Zone D)",
+        "risk_category": "MODERATE",
+        "risk_score": 38.5,
+        "flood_probability": 0.385,
+        "inundation_depth_m": 0.3,
+        "affected_area_sq_km": 9.0,
+        "population_at_risk": 9800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0286,
+              10.9781
+            ],
+            [
+              78.0486,
+              10.9701
+            ],
+            [
+              78.0546,
+              10.9511
+            ],
+            [
+              78.0316,
+              10.9461
+            ],
+            [
+              78.0286,
+              10.9781
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-201",
+        "zone_name": "Chennai Riverbank Core Floodplain (Zone A)",
+        "risk_category": "CRITICAL",
+        "risk_score": 91.5,
+        "flood_probability": 0.915,
+        "inundation_depth_m": 2.4,
+        "affected_area_sq_km": 26.1,
+        "population_at_risk": 108800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.1926,
+              13.0202
+            ],
+            [
+              80.2456,
+              13.0242
+            ],
+            [
+              80.2496,
+              13.0052
+            ],
+            [
+              80.1986,
+              13.0012
+            ],
+            [
+              80.1926,
+              13.0202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-202",
+        "zone_name": "Chennai Northern Canal Lowlands (Zone B)",
+        "risk_category": "SEVERE",
+        "risk_score": 78.2,
+        "flood_probability": 0.782,
+        "inundation_depth_m": 1.5,
+        "affected_area_sq_km": 20.3,
+        "population_at_risk": 81600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.1986,
+              13.0382
+            ],
+            [
+              80.2416,
+              13.0412
+            ],
+            [
+              80.2456,
+              13.0242
+            ],
+            [
+              80.1926,
+              13.0202
+            ],
+            [
+              80.1986,
+              13.0382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-203",
+        "zone_name": "Chennai Southern Drainage Basin (Zone C)",
+        "risk_category": "HIGH",
+        "risk_score": 64.0,
+        "flood_probability": 0.64,
+        "inundation_depth_m": 0.9,
+        "affected_area_sq_km": 15.95,
+        "population_at_risk": 61200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.1986,
+              13.0012
+            ],
+            [
+              80.2496,
+              13.0052
+            ],
+            [
+              80.2446,
+              12.9862
+            ],
+            [
+              80.2026,
+              12.9852
+            ],
+            [
+              80.1986,
+              13.0012
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-204",
+        "zone_name": "Chennai Western Elevated Terrace (Zone D)",
+        "risk_category": "MODERATE",
+        "risk_score": 38.5,
+        "flood_probability": 0.385,
+        "inundation_depth_m": 0.3,
+        "affected_area_sq_km": 11.6,
+        "population_at_risk": 27200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.1726,
+              13.0282
+            ],
+            [
+              80.1926,
+              13.0202
+            ],
+            [
+              80.1986,
+              13.0012
+            ],
+            [
+              80.1756,
+              12.9962
+            ],
+            [
+              80.1726,
+              13.0282
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-301",
+        "zone_name": "Kamrup Metro Riverbank Core Floodplain (Zone A)",
+        "risk_category": "CRITICAL",
+        "risk_score": 91.5,
+        "flood_probability": 0.915,
+        "inundation_depth_m": 2.4,
+        "affected_area_sq_km": 35.64,
+        "population_at_risk": 83200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.7178,
+              26.1944
+            ],
+            [
+              91.7708,
+              26.1984
+            ],
+            [
+              91.7748,
+              26.1794
+            ],
+            [
+              91.7238,
+              26.1754
+            ],
+            [
+              91.7178,
+              26.1944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-302",
+        "zone_name": "Kamrup Metro Northern Canal Lowlands (Zone B)",
+        "risk_category": "SEVERE",
+        "risk_score": 78.2,
+        "flood_probability": 0.782,
+        "inundation_depth_m": 1.5,
+        "affected_area_sq_km": 27.72,
+        "population_at_risk": 62400
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.7238,
+              26.2124
+            ],
+            [
+              91.7668,
+              26.2154
+            ],
+            [
+              91.7708,
+              26.1984
+            ],
+            [
+              91.7178,
+              26.1944
+            ],
+            [
+              91.7238,
+              26.2124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-303",
+        "zone_name": "Kamrup Metro Southern Drainage Basin (Zone C)",
+        "risk_category": "HIGH",
+        "risk_score": 64.0,
+        "flood_probability": 0.64,
+        "inundation_depth_m": 0.9,
+        "affected_area_sq_km": 21.78,
+        "population_at_risk": 46800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.7238,
+              26.1754
+            ],
+            [
+              91.7748,
+              26.1794
+            ],
+            [
+              91.7698,
+              26.1604
+            ],
+            [
+              91.7278,
+              26.1594
+            ],
+            [
+              91.7238,
+              26.1754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-304",
+        "zone_name": "Kamrup Metro Western Elevated Terrace (Zone D)",
+        "risk_category": "MODERATE",
+        "risk_score": 38.5,
+        "flood_probability": 0.385,
+        "inundation_depth_m": 0.3,
+        "affected_area_sq_km": 15.84,
+        "population_at_risk": 20800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.6978,
+              26.2024
+            ],
+            [
+              91.7178,
+              26.1944
+            ],
+            [
+              91.7238,
+              26.1754
+            ],
+            [
+              91.7008,
+              26.1704
+            ],
+            [
+              91.6978,
+              26.2024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-401",
+        "zone_name": "Ernakulam Riverbank Core Floodplain (Zone A)",
+        "risk_category": "CRITICAL",
+        "risk_score": 91.5,
+        "flood_probability": 0.915,
+        "inundation_depth_m": 2.4,
+        "affected_area_sq_km": 16.92,
+        "population_at_risk": 49600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.3236,
+              10.1176
+            ],
+            [
+              76.3766,
+              10.1216
+            ],
+            [
+              76.3806,
+              10.1026
+            ],
+            [
+              76.3296,
+              10.0986
+            ],
+            [
+              76.3236,
+              10.1176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-402",
+        "zone_name": "Ernakulam Northern Canal Lowlands (Zone B)",
+        "risk_category": "SEVERE",
+        "risk_score": 78.2,
+        "flood_probability": 0.782,
+        "inundation_depth_m": 1.5,
+        "affected_area_sq_km": 13.16,
+        "population_at_risk": 37200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.3296,
+              10.1356
+            ],
+            [
+              76.3726,
+              10.1386
+            ],
+            [
+              76.3766,
+              10.1216
+            ],
+            [
+              76.3236,
+              10.1176
+            ],
+            [
+              76.3296,
+              10.1356
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-403",
+        "zone_name": "Ernakulam Southern Drainage Basin (Zone C)",
+        "risk_category": "HIGH",
+        "risk_score": 64.0,
+        "flood_probability": 0.64,
+        "inundation_depth_m": 0.9,
+        "affected_area_sq_km": 10.34,
+        "population_at_risk": 27900
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.3296,
+              10.0986
+            ],
+            [
+              76.3806,
+              10.1026
+            ],
+            [
+              76.3756,
+              10.0836
+            ],
+            [
+              76.3336,
+              10.0826
+            ],
+            [
+              76.3296,
+              10.0986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-404",
+        "zone_name": "Ernakulam Western Elevated Terrace (Zone D)",
+        "risk_category": "MODERATE",
+        "risk_score": 38.5,
+        "flood_probability": 0.385,
+        "inundation_depth_m": 0.3,
+        "affected_area_sq_km": 7.52,
+        "population_at_risk": 12400
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.3036,
+              10.1256
+            ],
+            [
+              76.3236,
+              10.1176
+            ],
+            [
+              76.3296,
+              10.0986
+            ],
+            [
+              76.3066,
+              10.0936
+            ],
+            [
+              76.3036,
+              10.1256
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-501",
+        "zone_name": "Cuttack Riverbank Core Floodplain (Zone A)",
+        "risk_category": "CRITICAL",
+        "risk_score": 91.5,
+        "flood_probability": 0.915,
+        "inundation_depth_m": 2.4,
+        "affected_area_sq_km": 29.16,
+        "population_at_risk": 66400
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.855,
+              20.4725
+            ],
+            [
+              85.908,
+              20.4765
+            ],
+            [
+              85.912,
+              20.4575
+            ],
+            [
+              85.861,
+              20.4535
+            ],
+            [
+              85.855,
+              20.4725
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-502",
+        "zone_name": "Cuttack Northern Canal Lowlands (Zone B)",
+        "risk_category": "SEVERE",
+        "risk_score": 78.2,
+        "flood_probability": 0.782,
+        "inundation_depth_m": 1.5,
+        "affected_area_sq_km": 22.68,
+        "population_at_risk": 49800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.861,
+              20.4905
+            ],
+            [
+              85.904,
+              20.4935
+            ],
+            [
+              85.908,
+              20.4765
+            ],
+            [
+              85.855,
+              20.4725
+            ],
+            [
+              85.861,
+              20.4905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-503",
+        "zone_name": "Cuttack Southern Drainage Basin (Zone C)",
+        "risk_category": "HIGH",
+        "risk_score": 64.0,
+        "flood_probability": 0.64,
+        "inundation_depth_m": 0.9,
+        "affected_area_sq_km": 17.82,
+        "population_at_risk": 37350
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.861,
+              20.4535
+            ],
+            [
+              85.912,
+              20.4575
+            ],
+            [
+              85.907,
+              20.4385
+            ],
+            [
+              85.865,
+              20.4375
+            ],
+            [
+              85.861,
+              20.4535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_code": "FZ-504",
+        "zone_name": "Cuttack Western Elevated Terrace (Zone D)",
+        "risk_category": "MODERATE",
+        "risk_score": 38.5,
+        "flood_probability": 0.385,
+        "inundation_depth_m": 0.3,
+        "affected_area_sq_km": 12.96,
+        "population_at_risk": 16600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.835,
+              20.4805
+            ],
+            [
+              85.855,
+              20.4725
+            ],
+            [
+              85.861,
+              20.4535
+            ],
+            [
+              85.838,
+              20.4485
+            ],
+            [
+              85.835,
+              20.4805
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

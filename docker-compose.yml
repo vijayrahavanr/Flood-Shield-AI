@@ -1,0 +1,46 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: floodshield-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: floodshield_password
+      POSTGRES_DB: floodshield_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./backend/migrations/001_initial_schema.sql:/docker-entrypoint-initdb.d/001_initial_schema.sql:ro
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: floodshield-backend
+    restart: unless-stopped
+    env_file:
+      - .env.example
+    environment:
+      DATABASE_URL: sqlite:///./floodshield.db
+      POSTGRES_FALLBACK_TO_SQLITE: "true"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: floodshield-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
