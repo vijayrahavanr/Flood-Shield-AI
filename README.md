@@ -1,5 +1,7 @@
 # FLOODSHIELD AI – Flood Prediction and Post-Flood Health Protection
 
+> **Prototype notice:** This is an academic decision-support demo. Seeded observations and satellite scenes are simulated; external weather, river, and satellite services use mock adapters unless separately integrated and configured. Risk scores and health guidance are not operational warnings or medical diagnoses. Do not use this build to direct real-world evacuations or deploy it publicly without a security, data, and model validation review.
+
 **Team Name:** Digital Pioneer  
 **Domain:** Disaster Management, Climate Analytics, Remote Sensing, AI/ML, GIS  
 **Architecture:** React 18 + TypeScript + Vite + Tailwind CSS + Leaflet/React-Leaflet + Recharts | Python FastAPI + SQLAlchemy + PostgreSQL/SQLite + Ensemble AI/ML (XGBoost, Random Forest, Logistic Regression) + SHAP Explainability + Sentinel-1/2 NDWI/SAR Processor
